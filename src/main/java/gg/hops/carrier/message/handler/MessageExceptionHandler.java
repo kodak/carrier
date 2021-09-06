@@ -1,4 +1,4 @@
-package me.kodak.carrier.message.handler;
+package gg.hops.carrier.message.handler;
 
 public class MessageExceptionHandler {
 

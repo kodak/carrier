@@ -1,4 +1,4 @@
-package me.kodak.carrier.message;
+package gg.hops.carrier.message;
 
 import java.util.Map;
 

@@ -1,12 +1,12 @@
-package me.kodak.carrier;
+package gg.hops.carrier;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import me.kodak.carrier.message.Message;
-import me.kodak.carrier.message.handler.IncomingMessageHandler;
-import me.kodak.carrier.message.handler.MessageExceptionHandler;
-import me.kodak.carrier.message.listener.MessageListener;
-import me.kodak.carrier.message.listener.MessageListenerData;
+import gg.hops.carrier.message.Message;
+import gg.hops.carrier.message.handler.IncomingMessageHandler;
+import gg.hops.carrier.message.handler.MessageExceptionHandler;
+import gg.hops.carrier.message.listener.MessageListener;
+import gg.hops.carrier.message.listener.MessageListenerData;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPubSub;

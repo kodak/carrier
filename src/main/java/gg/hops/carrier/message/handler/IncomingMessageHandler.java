@@ -1,4 +1,4 @@
-package me.kodak.carrier.message.handler;
+package gg.hops.carrier.message.handler;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
