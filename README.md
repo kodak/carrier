@@ -14,7 +14,7 @@ Sending a Carrier message is super simple.
 All you need to do is use your Carrier instance's sendMessage method to specify a Message id and the data you wish to send, the Carrier message handler will do the rest of the work. 
 ```Java
     Map<String, String> data = new HashMap<>();
-    myData.put("project", "Carrier");
+    data.put("project", "Carrier");
     
     Message message = new Message("CARRIER", data);
     carrier.sendMessage(message);
