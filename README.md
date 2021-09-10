@@ -56,7 +56,7 @@ Also Make sure to use Carrier#close when your application is stopping, to ensure
 ## Compile a Build
  1. Navigate to the repository home directory
  2. Run `mvn clean install`
- 3. Find the compiled jars at Plugin/target/LunarClient-Plugin-version.jar and API/target/LunarClient-API-version.jar
+ 3. Find the compiled jars inside the target directory
 
 ## Report an Issue
 If you find an issue you can submit it [here](https://github.com/kodak/carrier/issues).
